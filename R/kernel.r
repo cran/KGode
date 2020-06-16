@@ -15,7 +15,7 @@
 #'   \item{\code{dkdt(t1,t2)}}{This method is used to calculate the 1st order derivative of kernel function given two one dimensional real inputs.} }
 #' @export
 #'
-#' @author Mu Niu, \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 Kernel<-R6Class("Kernel",
   public = list(

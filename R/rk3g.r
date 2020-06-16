@@ -16,7 +16,7 @@
 #'   \item{\code{witerate(iter,innerloop,dtilda,lamb)}}{Iteratively updating ode parameters and the warped interpolation regression coefficients.}  
 #'   \item{\code{full(par,lam)}}{Updating ode parameters and rkhs interpolation regression coefficients simultaneously. This method is slow but guarantee convergence.} }
 #' @export
-#' @author Mu Niu, \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 rkg3 <- R6Class("rkg3",
   public = list(

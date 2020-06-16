@@ -133,7 +133,7 @@
 #' ##display the results of parameter estimation using gradient matching in the warped time domain.
 #' www$wkkk$ode_par       
 #'}
-#' @author Mu Niu \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu \email{mu.niu@glasgow.ac.uk}
 
 warpfun =function(kkkrkg,bbb,peod,eps,fixlens,y_no,testData,witer)
 {

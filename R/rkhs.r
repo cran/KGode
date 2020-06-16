@@ -119,7 +119,7 @@
 #' ## make prediction using the 'predict()' method of 'rkhs' class and plot against the time.
 #' plot(t_no,bbb$predict()$pred)
 #' }
-#' @author Mu Niu, \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 rkhs <- R6Class("rkhs",
   public = list(

@@ -19,7 +19,7 @@
 #'   \item{\code{slowWarp(lens,peod,eps)}}{This method is used to find the optimised initial hyper parameters for the sigmoid basis function for each ode states.}
 #'   \item{\code{ warpLossLen(par,lam,p0,eps)}}{This method is used to implement the loss function for warping. It is called by the 'warpSin' function.} }
 #' @export
-#' @author Mu Niu, \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 
 Warp <- R6Class("Warp",

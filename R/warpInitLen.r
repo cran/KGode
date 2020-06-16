@@ -112,7 +112,7 @@
 #' ###### learn the initial value of the hyper parameters of the warping basis function
 #' fixlens=warpInitLen(peod,eps,rkgres)
 #'}
-#' @author Mu Niu \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu \email{mu.niu@glasgow.ac.uk}
 
 warpInitLen= function(peod,eps,rkgres,lens)
 {

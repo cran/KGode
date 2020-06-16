@@ -122,7 +122,7 @@
 #' ## display the ode parameter estimation.
 #' res$oppar
 #'}
-#' @author Mu Niu \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu \email{mu.niu@glasgow.ac.uk}
 
 third = function(lam,kkk,bbb,crtype,woption,dtilda)
 {

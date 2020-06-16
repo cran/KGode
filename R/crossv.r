@@ -120,7 +120,7 @@
 #' lamil1 = crossv(lam,kkk,bbb,crtype,y_no)
 #' lambdai1=lamil1[[1]]
 #'}
-#' @author Mu Niu \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu \email{mu.niu@glasgow.ac.uk}
 
 crossv = function(lam,kkk,bbb,crtype,y_no,woption,resmtest,dtilda,fold)
 {

@@ -170,7 +170,7 @@
 #' mads
 #' 
 #'}
-#' @author Mu Niu \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu \email{mu.niu@glasgow.ac.uk}
 bootstrap <- function(kkk, y_no, ktype, K, ode_par, intp_data, www=NULL) {
     intp = do.call(rbind, intp_data) # convert from list of lists to array
     ode_pars=c()

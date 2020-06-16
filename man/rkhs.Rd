@@ -4,9 +4,8 @@
 \name{rkhs}
 \alias{rkhs}
 \title{The 'rkhs' class object}
-\format{\code{\link{R6Class}} object.}
-\usage{
-rkhs
+\format{
+\code{\link{R6Class}} object.
 }
 \value{
 an  \code{\link{R6Class}} object which can be used for doing interpolation using reproducing kernel Hilbert space.
@@ -14,20 +13,6 @@ an  \code{\link{R6Class}} object which can be used for doing interpolation using
 \description{
 This class provide the interpolation methods using reproducing kernel Hilbert space.
 }
-\section{Fields}{
-
-\describe{
-\item{\code{y}}{matrix(of size n_s*n_o) containing observation.}
-
-\item{\code{t}}{vector(of length n_o) containing time points for observation.}
-
-\item{\code{b}}{vector(of length n_o) containing coefficients of kernel or basis functions.}
-
-\item{\code{lambda}}{scalar containing the weighting parameter for L2 norm of the reproducing kernel Hilbert space.}
-
-\item{\code{ker}}{kernel class object containing kernel.}
-}}
-
 \section{Methods}{
 
 \describe{
@@ -136,6 +121,165 @@ plot(t_no,bbb$predict()$pred)
 }
 }
 \author{
-Mu Niu, \email{mu.niu@plymouth.ac.uk}
+Mu Niu, \email{mu.niu@glasgow.ac.uk}
 }
 \keyword{data}
+\section{Public fields}{
+\if{html}{\out{<div class="r6-fields">}}
+\describe{
+\item{\code{y}}{matrix(of size n_s*n_o) containing observation.}
+
+\item{\code{t}}{vector(of length n_o) containing time points for observation.}
+
+\item{\code{b}}{vector(of length n_o) containing coefficients of kernel or basis functions.}
+
+\item{\code{lambda}}{scalar containing the weighting parameter for L2 norm of the reproducing kernel Hilbert space.}
+
+\item{\code{ker}}{kernel class object containing kernel.}
+}
+\if{html}{\out{</div>}}
+}
+\section{Methods}{
+\subsection{Public methods}{
+\itemize{
+\item \href{#method-new}{\code{rkhs$new()}}
+\item \href{#method-greet}{\code{rkhs$greet()}}
+\item \href{#method-showker}{\code{rkhs$showker()}}
+\item \href{#method-predict}{\code{rkhs$predict()}}
+\item \href{#method-predictT}{\code{rkhs$predictT()}}
+\item \href{#method-lossRK}{\code{rkhs$lossRK()}}
+\item \href{#method-grlossRK}{\code{rkhs$grlossRK()}}
+\item \href{#method-numgrad}{\code{rkhs$numgrad()}}
+\item \href{#method-skcross}{\code{rkhs$skcross()}}
+\item \href{#method-mkcross}{\code{rkhs$mkcross()}}
+\item \href{#method-loss11}{\code{rkhs$loss11()}}
+\item \href{#method-grloss11}{\code{rkhs$grloss11()}}
+\item \href{#method-clone}{\code{rkhs$clone()}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-new"></a>}}
+\if{latex}{\out{\hypertarget{method-new}{}}}
+\subsection{Method \code{new()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$new(y = NULL, t = NULL, b = NULL, lambda = NULL, ker = NULL)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-greet}{}}}
+\subsection{Method \code{greet()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$greet()}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-showker"></a>}}
+\if{latex}{\out{\hypertarget{method-showker}{}}}
+\subsection{Method \code{showker()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$showker()}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-predict"></a>}}
+\if{latex}{\out{\hypertarget{method-predict}{}}}
+\subsection{Method \code{predict()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$predict()}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-predictT"></a>}}
+\if{latex}{\out{\hypertarget{method-predictT}{}}}
+\subsection{Method \code{predictT()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$predictT(testT)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-lossRK"></a>}}
+\if{latex}{\out{\hypertarget{method-lossRK}{}}}
+\subsection{Method \code{lossRK()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$lossRK(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-grlossRK"></a>}}
+\if{latex}{\out{\hypertarget{method-grlossRK}{}}}
+\subsection{Method \code{grlossRK()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$grlossRK(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-numgrad"></a>}}
+\if{latex}{\out{\hypertarget{method-numgrad}{}}}
+\subsection{Method \code{numgrad()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$numgrad(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-skcross"></a>}}
+\if{latex}{\out{\hypertarget{method-skcross}{}}}
+\subsection{Method \code{skcross()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$skcross(init, bounded)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-mkcross"></a>}}
+\if{latex}{\out{\hypertarget{method-mkcross}{}}}
+\subsection{Method \code{mkcross()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$mkcross(init)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-loss11"></a>}}
+\if{latex}{\out{\hypertarget{method-loss11}{}}}
+\subsection{Method \code{loss11()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$loss11(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-grloss11"></a>}}
+\if{latex}{\out{\hypertarget{method-grloss11}{}}}
+\subsection{Method \code{grloss11()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$grloss11(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-clone}{}}}
+\subsection{Method \code{clone()}}{
+The objects of this class are cloneable with this method.
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkhs$clone(deep = FALSE)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{deep}}{Whether to make a deep clone.}
+}
+\if{html}{\out{</div>}}
+}
+}
+}

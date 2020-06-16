@@ -101,7 +101,7 @@
 #' ## show the results of ode parameter estimation using the standard gradient matching
 #' kkk$ode_par
 #'}
-#' @author Mu Niu \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu \email{mu.niu@glasgow.ac.uk}
 
 rkg = function(kkk,y_no,ktype)
 {

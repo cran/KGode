@@ -8,7 +8,7 @@
 #' @return an  \code{\link{R6Class}} object which can be used for the rkhs interpolation.
 #' @format \code{\link{R6Class}} object.
 #' @export
-#' @author Mu Niu, \email{mu.niu@plymouth.ac.uk}
+#' @author Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 
 MLP <- R6Class("MLP",

@@ -62,7 +62,7 @@
 #' init_t = kkk0$t
 #' kkk = ode$new(1,fun=LV_fun,grfun=LV_grlNODE,t=init_t,ode_par= init_par, y_ode=init_yode )
 #'
-#' @author Mu Niu, \email{ mu.niu@plymouth.ac.uk}
+#' @author Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 ode<-R6Class("ode",
   public = list(

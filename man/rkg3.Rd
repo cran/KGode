@@ -4,9 +4,8 @@
 \name{rkg3}
 \alias{rkg3}
 \title{The 'rkg3' class object}
-\format{\code{\link{R6Class}} object.}
-\usage{
-rkg3
+\format{
+\code{\link{R6Class}} object.
 }
 \value{
 an  \code{\link{R6Class}} object which can be used for improving ode parameters estimation by using ode as a regularizer.
@@ -14,14 +13,6 @@ an  \code{\link{R6Class}} object which can be used for improving ode parameters 
 \description{
 This class provides advanced gradient matching method by using the ode as a regularizer.
 }
-\section{Fields}{
-
-\describe{
-\item{\code{rk}}{the 'rkhs' class object containing the interpolation information for each state of the ode.}
-
-\item{\code{ode_m}}{the 'ode' class object containing the information about the odes.}
-}}
-
 \section{Methods}{
 
 \describe{
@@ -31,6 +22,156 @@ This class provides advanced gradient matching method by using the ode as a regu
 }
 
 \author{
-Mu Niu, \email{mu.niu@plymouth.ac.uk}
+Mu Niu, \email{mu.niu@glasgow.ac.uk}
 }
 \keyword{data}
+\section{Public fields}{
+\if{html}{\out{<div class="r6-fields">}}
+\describe{
+\item{\code{rk}}{the 'rkhs' class object containing the interpolation information for each state of the ode.}
+
+\item{\code{ode_m}}{the 'ode' class object containing the information about the odes.}
+}
+\if{html}{\out{</div>}}
+}
+\section{Active bindings}{
+\if{html}{\out{<div class="r6-active-bindings">}}
+\describe{
+\item{\code{ode_m}}{the 'ode' class object containing the information about the odes.}
+}
+\if{html}{\out{</div>}}
+}
+\section{Methods}{
+\subsection{Public methods}{
+\itemize{
+\item \href{#method-new}{\code{rkg3$new()}}
+\item \href{#method-greet}{\code{rkg3$greet()}}
+\item \href{#method-add}{\code{rkg3$add()}}
+\item \href{#method-iterate}{\code{rkg3$iterate()}}
+\item \href{#method-witerate}{\code{rkg3$witerate()}}
+\item \href{#method-full}{\code{rkg3$full()}}
+\item \href{#method-wfull}{\code{rkg3$wfull()}}
+\item \href{#method-opfull}{\code{rkg3$opfull()}}
+\item \href{#method-wopfull}{\code{rkg3$wopfull()}}
+\item \href{#method-cross}{\code{rkg3$cross()}}
+\item \href{#method-fullos}{\code{rkg3$fullos()}}
+\item \href{#method-clone}{\code{rkg3$clone()}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-new"></a>}}
+\if{latex}{\out{\hypertarget{method-new}{}}}
+\subsection{Method \code{new()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$new(rk = NULL, odem = NULL)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-greet}{}}}
+\subsection{Method \code{greet()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$greet()}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-add"></a>}}
+\if{latex}{\out{\hypertarget{method-add}{}}}
+\subsection{Method \code{add()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$add(x)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-iterate"></a>}}
+\if{latex}{\out{\hypertarget{method-iterate}{}}}
+\subsection{Method \code{iterate()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$iterate(iter, innerloop, lamb)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-witerate"></a>}}
+\if{latex}{\out{\hypertarget{method-witerate}{}}}
+\subsection{Method \code{witerate()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$witerate(iter, innerloop, dtilda, lamb)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-full"></a>}}
+\if{latex}{\out{\hypertarget{method-full}{}}}
+\subsection{Method \code{full()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$full(par, lam)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-wfull"></a>}}
+\if{latex}{\out{\hypertarget{method-wfull}{}}}
+\subsection{Method \code{wfull()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$wfull(par, lam, dtilda)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-opfull"></a>}}
+\if{latex}{\out{\hypertarget{method-opfull}{}}}
+\subsection{Method \code{opfull()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$opfull(lam)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-wopfull"></a>}}
+\if{latex}{\out{\hypertarget{method-wopfull}{}}}
+\subsection{Method \code{wopfull()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$wopfull(lam, dtilda)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-cross"></a>}}
+\if{latex}{\out{\hypertarget{method-cross}{}}}
+\subsection{Method \code{cross()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$cross(lam, testX, testY)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-fullos"></a>}}
+\if{latex}{\out{\hypertarget{method-fullos}{}}}
+\subsection{Method \code{fullos()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$fullos(par)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-clone}{}}}
+\subsection{Method \code{clone()}}{
+The objects of this class are cloneable with this method.
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{rkg3$clone(deep = FALSE)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{deep}}{Whether to make a deep clone.}
+}
+\if{html}{\out{</div>}}
+}
+}
+}

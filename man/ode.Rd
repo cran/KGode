@@ -4,9 +4,8 @@
 \name{ode}
 \alias{ode}
 \title{The 'ode' class object}
-\format{\code{\link{R6Class}} object.}
-\usage{
-ode
+\format{
+\code{\link{R6Class}} object.
 }
 \value{
 an  \code{\link{R6Class}} object which can be used for gradient matching.
@@ -14,16 +13,6 @@ an  \code{\link{R6Class}} object which can be used for gradient matching.
 \description{
 This class provide all information about odes and methods for numerically solving odes.
 }
-\section{Fields}{
-
-\describe{
-\item{\code{ode_par}}{vector(of length n_p) containing ode parameters. n_p is the number of ode parameters.}
-
-\item{\code{ode_fun}}{function containing the ode function.}
-
-\item{\code{t}}{vector(of length n_o) containing time points of observations. n_o is the length of time points.}
-}}
-
 \section{Methods}{
 
 \describe{
@@ -77,6 +66,148 @@ kkk = ode$new(1,fun=LV_fun,grfun=LV_grlNODE,t=init_t,ode_par= init_par, y_ode=in
 
 }
 \author{
-Mu Niu, \email{ mu.niu@plymouth.ac.uk}
+Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 }
 \keyword{data}
+\section{Public fields}{
+\if{html}{\out{<div class="r6-fields">}}
+\describe{
+\item{\code{ode_par}}{vector(of length n_p) containing ode parameters. n_p is the number of ode parameters.}
+
+\item{\code{ode_fun}}{function containing the ode function.}
+
+\item{\code{t}}{vector(of length n_o) containing time points of observations. n_o is the length of time points.}
+}
+\if{html}{\out{</div>}}
+}
+\section{Methods}{
+\subsection{Public methods}{
+\itemize{
+\item \href{#method-new}{\code{ode$new()}}
+\item \href{#method-greet}{\code{ode$greet()}}
+\item \href{#method-solve_ode}{\code{ode$solve_ode()}}
+\item \href{#method-rmsfun}{\code{ode$rmsfun()}}
+\item \href{#method-gradient}{\code{ode$gradient()}}
+\item \href{#method-lossNODE}{\code{ode$lossNODE()}}
+\item \href{#method-grlNODE}{\code{ode$grlNODE()}}
+\item \href{#method-loss32NODE}{\code{ode$loss32NODE()}}
+\item \href{#method-grl32NODE}{\code{ode$grl32NODE()}}
+\item \href{#method-optim_par}{\code{ode$optim_par()}}
+\item \href{#method-clone}{\code{ode$clone()}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-new"></a>}}
+\if{latex}{\out{\hypertarget{method-new}{}}}
+\subsection{Method \code{new()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$new(
+  sample = NULL,
+  fun = NULL,
+  grfun = NULL,
+  t = NULL,
+  ode_par = NULL,
+  y_ode = NULL
+)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-greet}{}}}
+\subsection{Method \code{greet()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$greet()}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-solve_ode"></a>}}
+\if{latex}{\out{\hypertarget{method-solve_ode}{}}}
+\subsection{Method \code{solve_ode()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$solve_ode(par_ode, xinit, tinterv)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-rmsfun"></a>}}
+\if{latex}{\out{\hypertarget{method-rmsfun}{}}}
+\subsection{Method \code{rmsfun()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$rmsfun(par_ode, state, M1, true_par)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-gradient"></a>}}
+\if{latex}{\out{\hypertarget{method-gradient}{}}}
+\subsection{Method \code{gradient()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$gradient(y_p, par_ode)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-lossNODE"></a>}}
+\if{latex}{\out{\hypertarget{method-lossNODE}{}}}
+\subsection{Method \code{lossNODE()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$lossNODE(par, y_p, z_p)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-grlNODE"></a>}}
+\if{latex}{\out{\hypertarget{method-grlNODE}{}}}
+\subsection{Method \code{grlNODE()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$grlNODE(par, y_p, z_p)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-loss32NODE"></a>}}
+\if{latex}{\out{\hypertarget{method-loss32NODE}{}}}
+\subsection{Method \code{loss32NODE()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$loss32NODE(par, y_p, z_p)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-grl32NODE"></a>}}
+\if{latex}{\out{\hypertarget{method-grl32NODE}{}}}
+\subsection{Method \code{grl32NODE()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$grl32NODE(par, y_p, z_p)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-optim_par"></a>}}
+\if{latex}{\out{\hypertarget{method-optim_par}{}}}
+\subsection{Method \code{optim_par()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$optim_par(par, y_p, z_p)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-clone}{}}}
+\subsection{Method \code{clone()}}{
+The objects of this class are cloneable with this method.
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{ode$clone(deep = FALSE)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{deep}}{Whether to make a deep clone.}
+}
+\if{html}{\out{</div>}}
+}
+}
+}

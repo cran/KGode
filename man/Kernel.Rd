@@ -4,9 +4,8 @@
 \name{Kernel}
 \alias{Kernel}
 \title{The 'Kernel' class object}
-\format{\code{\link{R6Class}} object.}
-\usage{
-Kernel
+\format{
+\code{\link{R6Class}} object.
 }
 \value{
 an  \code{\link{R6Class}} object which can be used for the rkhs interpolation.
@@ -14,12 +13,6 @@ an  \code{\link{R6Class}} object which can be used for the rkhs interpolation.
 \description{
 This a abstract class     provide the kernel function and the 1st order derivative of rbf kernel function.
 }
-\section{Fields}{
-
-\describe{
-\item{\code{k_par}}{vector(of length n_hy) containing the hyper-parameter of kernel. n_hy is the length of kernel hyper parameters.}
-}}
-
 \section{Methods}{
 
 \describe{
@@ -29,6 +22,87 @@ This a abstract class     provide the kernel function and the 1st order derivati
 }
 
 \author{
-Mu Niu, \email{mu.niu@plymouth.ac.uk}
+Mu Niu, \email{mu.niu@glasgow.ac.uk}
 }
 \keyword{data}
+\section{Public fields}{
+\if{html}{\out{<div class="r6-fields">}}
+\describe{
+\item{\code{k_par}}{vector(of length n_hy) containing the hyper-parameter of kernel. n_hy is the length of kernel hyper parameters.}
+}
+\if{html}{\out{</div>}}
+}
+\section{Methods}{
+\subsection{Public methods}{
+\itemize{
+\item \href{#method-new}{\code{Kernel$new()}}
+\item \href{#method-greet}{\code{Kernel$greet()}}
+\item \href{#method-kern}{\code{Kernel$kern()}}
+\item \href{#method-dkd_kpar}{\code{Kernel$dkd_kpar()}}
+\item \href{#method-dkdt}{\code{Kernel$dkdt()}}
+\item \href{#method-clone}{\code{Kernel$clone()}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-new"></a>}}
+\if{latex}{\out{\hypertarget{method-new}{}}}
+\subsection{Method \code{new()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{Kernel$new(k_par = NULL)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-greet}{}}}
+\subsection{Method \code{greet()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{Kernel$greet()}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-kern"></a>}}
+\if{latex}{\out{\hypertarget{method-kern}{}}}
+\subsection{Method \code{kern()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{Kernel$kern(t1, t2)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-dkd_kpar"></a>}}
+\if{latex}{\out{\hypertarget{method-dkd_kpar}{}}}
+\subsection{Method \code{dkd_kpar()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{Kernel$dkd_kpar(t1, t2)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-dkdt"></a>}}
+\if{latex}{\out{\hypertarget{method-dkdt}{}}}
+\subsection{Method \code{dkdt()}}{
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{Kernel$dkdt(t1, t2)}\if{html}{\out{</div>}}
+}
+
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-clone}{}}}
+\subsection{Method \code{clone()}}{
+The objects of this class are cloneable with this method.
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{Kernel$clone(deep = FALSE)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{deep}}{Whether to make a deep clone.}
+}
+\if{html}{\out{</div>}}
+}
+}
+}
