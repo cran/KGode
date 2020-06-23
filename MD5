@@ -1,8 +1,9 @@
-73f22952f9be8b466c1e8c918b7380f8 *DESCRIPTION
-5b7495d9b6a79cc1b42bb86b1f37bf8a *NAMESPACE
+789f9f54bf1fc14551940b0683fbaed8 *DESCRIPTION
+af0941f450c514b424e89d2641c28cc1 *NAMESPACE
 9c891c345e43461fed435c6301358413 *R/WarpSin.r
 eafb6cfb20317efb90303752757e7ff0 *R/bootstrap.r
 5e55e413054c8defa0cc2d73a0b90718 *R/crossv.r
+fcb129175668c146c48aeffb1bcf06c5 *R/diagnostic.r
 61cc8fcca4a1883d232b0fbb09f6761b *R/kernel.r
 a1dc49c7c4cd1537b8910e814fd802d2 *R/mlp.r
 ba5cb80b06b827c92585d6a5c38421e5 *R/ode.r
@@ -20,6 +21,7 @@ a6f4584aefbd137b3e9ebb36387f342a *man/RBF.Rd
 36a38d4bf6b0188fedbc22546d4ee2df *man/Warp.Rd
 2a63e4566f1a1636f8f40eae871a4ded *man/bootstrap.Rd
 bf3cca968893cf293909172c5696ef38 *man/crossv.Rd
+d89c229c7711d87c9dbb5553f4710db2 *man/diagnostic.Rd
 8a330b5307c992696b9c1680e9c07079 *man/ode.Rd
 48cae433632e02a66966e4ad3ad51f28 *man/rkg.Rd
 1f212092eeb574d4a334f8ae79cddea8 *man/rkg3.Rd
