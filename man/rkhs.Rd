@@ -142,24 +142,24 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{rkhs$new()}}
-\item \href{#method-greet}{\code{rkhs$greet()}}
-\item \href{#method-showker}{\code{rkhs$showker()}}
-\item \href{#method-predict}{\code{rkhs$predict()}}
-\item \href{#method-predictT}{\code{rkhs$predictT()}}
-\item \href{#method-lossRK}{\code{rkhs$lossRK()}}
-\item \href{#method-grlossRK}{\code{rkhs$grlossRK()}}
-\item \href{#method-numgrad}{\code{rkhs$numgrad()}}
-\item \href{#method-skcross}{\code{rkhs$skcross()}}
-\item \href{#method-mkcross}{\code{rkhs$mkcross()}}
-\item \href{#method-loss11}{\code{rkhs$loss11()}}
-\item \href{#method-grloss11}{\code{rkhs$grloss11()}}
-\item \href{#method-clone}{\code{rkhs$clone()}}
+\item \href{#method-rkhs-new}{\code{rkhs$new()}}
+\item \href{#method-rkhs-greet}{\code{rkhs$greet()}}
+\item \href{#method-rkhs-showker}{\code{rkhs$showker()}}
+\item \href{#method-rkhs-predict}{\code{rkhs$predict()}}
+\item \href{#method-rkhs-predictT}{\code{rkhs$predictT()}}
+\item \href{#method-rkhs-lossRK}{\code{rkhs$lossRK()}}
+\item \href{#method-rkhs-grlossRK}{\code{rkhs$grlossRK()}}
+\item \href{#method-rkhs-numgrad}{\code{rkhs$numgrad()}}
+\item \href{#method-rkhs-skcross}{\code{rkhs$skcross()}}
+\item \href{#method-rkhs-mkcross}{\code{rkhs$mkcross()}}
+\item \href{#method-rkhs-loss11}{\code{rkhs$loss11()}}
+\item \href{#method-rkhs-grloss11}{\code{rkhs$grloss11()}}
+\item \href{#method-rkhs-clone}{\code{rkhs$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-rkhs-new"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-new}{}}}
 \subsection{Method \code{new()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$new(y = NULL, t = NULL, b = NULL, lambda = NULL, ker = NULL)}\if{html}{\out{</div>}}
@@ -167,8 +167,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-greet"></a>}}
-\if{latex}{\out{\hypertarget{method-greet}{}}}
+\if{html}{\out{<a id="method-rkhs-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-greet}{}}}
 \subsection{Method \code{greet()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$greet()}\if{html}{\out{</div>}}
@@ -176,8 +176,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-showker"></a>}}
-\if{latex}{\out{\hypertarget{method-showker}{}}}
+\if{html}{\out{<a id="method-rkhs-showker"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-showker}{}}}
 \subsection{Method \code{showker()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$showker()}\if{html}{\out{</div>}}
@@ -185,8 +185,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-predict"></a>}}
-\if{latex}{\out{\hypertarget{method-predict}{}}}
+\if{html}{\out{<a id="method-rkhs-predict"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-predict}{}}}
 \subsection{Method \code{predict()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$predict()}\if{html}{\out{</div>}}
@@ -194,8 +194,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-predictT"></a>}}
-\if{latex}{\out{\hypertarget{method-predictT}{}}}
+\if{html}{\out{<a id="method-rkhs-predictT"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-predictT}{}}}
 \subsection{Method \code{predictT()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$predictT(testT)}\if{html}{\out{</div>}}
@@ -203,8 +203,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-lossRK"></a>}}
-\if{latex}{\out{\hypertarget{method-lossRK}{}}}
+\if{html}{\out{<a id="method-rkhs-lossRK"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-lossRK}{}}}
 \subsection{Method \code{lossRK()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$lossRK(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
@@ -212,8 +212,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-grlossRK"></a>}}
-\if{latex}{\out{\hypertarget{method-grlossRK}{}}}
+\if{html}{\out{<a id="method-rkhs-grlossRK"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-grlossRK}{}}}
 \subsection{Method \code{grlossRK()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$grlossRK(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
@@ -221,8 +221,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-numgrad"></a>}}
-\if{latex}{\out{\hypertarget{method-numgrad}{}}}
+\if{html}{\out{<a id="method-rkhs-numgrad"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-numgrad}{}}}
 \subsection{Method \code{numgrad()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$numgrad(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
@@ -230,8 +230,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-skcross"></a>}}
-\if{latex}{\out{\hypertarget{method-skcross}{}}}
+\if{html}{\out{<a id="method-rkhs-skcross"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-skcross}{}}}
 \subsection{Method \code{skcross()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$skcross(init, bounded)}\if{html}{\out{</div>}}
@@ -239,8 +239,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-mkcross"></a>}}
-\if{latex}{\out{\hypertarget{method-mkcross}{}}}
+\if{html}{\out{<a id="method-rkhs-mkcross"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-mkcross}{}}}
 \subsection{Method \code{mkcross()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$mkcross(init)}\if{html}{\out{</div>}}
@@ -248,8 +248,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-loss11"></a>}}
-\if{latex}{\out{\hypertarget{method-loss11}{}}}
+\if{html}{\out{<a id="method-rkhs-loss11"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-loss11}{}}}
 \subsection{Method \code{loss11()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$loss11(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
@@ -257,8 +257,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-grloss11"></a>}}
-\if{latex}{\out{\hypertarget{method-grloss11}{}}}
+\if{html}{\out{<a id="method-rkhs-grloss11"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-grloss11}{}}}
 \subsection{Method \code{grloss11()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkhs$grloss11(par, tl1, y_d, jitter)}\if{html}{\out{</div>}}
@@ -266,8 +266,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-rkhs-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-rkhs-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

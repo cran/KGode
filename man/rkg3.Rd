@@ -44,23 +44,23 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{rkg3$new()}}
-\item \href{#method-greet}{\code{rkg3$greet()}}
-\item \href{#method-add}{\code{rkg3$add()}}
-\item \href{#method-iterate}{\code{rkg3$iterate()}}
-\item \href{#method-witerate}{\code{rkg3$witerate()}}
-\item \href{#method-full}{\code{rkg3$full()}}
-\item \href{#method-wfull}{\code{rkg3$wfull()}}
-\item \href{#method-opfull}{\code{rkg3$opfull()}}
-\item \href{#method-wopfull}{\code{rkg3$wopfull()}}
-\item \href{#method-cross}{\code{rkg3$cross()}}
-\item \href{#method-fullos}{\code{rkg3$fullos()}}
-\item \href{#method-clone}{\code{rkg3$clone()}}
+\item \href{#method-rkg3-new}{\code{rkg3$new()}}
+\item \href{#method-rkg3-greet}{\code{rkg3$greet()}}
+\item \href{#method-rkg3-add}{\code{rkg3$add()}}
+\item \href{#method-rkg3-iterate}{\code{rkg3$iterate()}}
+\item \href{#method-rkg3-witerate}{\code{rkg3$witerate()}}
+\item \href{#method-rkg3-full}{\code{rkg3$full()}}
+\item \href{#method-rkg3-wfull}{\code{rkg3$wfull()}}
+\item \href{#method-rkg3-opfull}{\code{rkg3$opfull()}}
+\item \href{#method-rkg3-wopfull}{\code{rkg3$wopfull()}}
+\item \href{#method-rkg3-cross}{\code{rkg3$cross()}}
+\item \href{#method-rkg3-fullos}{\code{rkg3$fullos()}}
+\item \href{#method-rkg3-clone}{\code{rkg3$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-rkg3-new"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-new}{}}}
 \subsection{Method \code{new()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$new(rk = NULL, odem = NULL)}\if{html}{\out{</div>}}
@@ -68,8 +68,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-greet"></a>}}
-\if{latex}{\out{\hypertarget{method-greet}{}}}
+\if{html}{\out{<a id="method-rkg3-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-greet}{}}}
 \subsection{Method \code{greet()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$greet()}\if{html}{\out{</div>}}
@@ -77,8 +77,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-add"></a>}}
-\if{latex}{\out{\hypertarget{method-add}{}}}
+\if{html}{\out{<a id="method-rkg3-add"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-add}{}}}
 \subsection{Method \code{add()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$add(x)}\if{html}{\out{</div>}}
@@ -86,8 +86,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-iterate"></a>}}
-\if{latex}{\out{\hypertarget{method-iterate}{}}}
+\if{html}{\out{<a id="method-rkg3-iterate"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-iterate}{}}}
 \subsection{Method \code{iterate()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$iterate(iter, innerloop, lamb)}\if{html}{\out{</div>}}
@@ -95,8 +95,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-witerate"></a>}}
-\if{latex}{\out{\hypertarget{method-witerate}{}}}
+\if{html}{\out{<a id="method-rkg3-witerate"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-witerate}{}}}
 \subsection{Method \code{witerate()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$witerate(iter, innerloop, dtilda, lamb)}\if{html}{\out{</div>}}
@@ -104,8 +104,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-full"></a>}}
-\if{latex}{\out{\hypertarget{method-full}{}}}
+\if{html}{\out{<a id="method-rkg3-full"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-full}{}}}
 \subsection{Method \code{full()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$full(par, lam)}\if{html}{\out{</div>}}
@@ -113,8 +113,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-wfull"></a>}}
-\if{latex}{\out{\hypertarget{method-wfull}{}}}
+\if{html}{\out{<a id="method-rkg3-wfull"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-wfull}{}}}
 \subsection{Method \code{wfull()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$wfull(par, lam, dtilda)}\if{html}{\out{</div>}}
@@ -122,8 +122,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-opfull"></a>}}
-\if{latex}{\out{\hypertarget{method-opfull}{}}}
+\if{html}{\out{<a id="method-rkg3-opfull"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-opfull}{}}}
 \subsection{Method \code{opfull()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$opfull(lam)}\if{html}{\out{</div>}}
@@ -131,8 +131,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-wopfull"></a>}}
-\if{latex}{\out{\hypertarget{method-wopfull}{}}}
+\if{html}{\out{<a id="method-rkg3-wopfull"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-wopfull}{}}}
 \subsection{Method \code{wopfull()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$wopfull(lam, dtilda)}\if{html}{\out{</div>}}
@@ -140,8 +140,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-cross"></a>}}
-\if{latex}{\out{\hypertarget{method-cross}{}}}
+\if{html}{\out{<a id="method-rkg3-cross"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-cross}{}}}
 \subsection{Method \code{cross()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$cross(lam, testX, testY)}\if{html}{\out{</div>}}
@@ -149,8 +149,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fullos"></a>}}
-\if{latex}{\out{\hypertarget{method-fullos}{}}}
+\if{html}{\out{<a id="method-rkg3-fullos"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-fullos}{}}}
 \subsection{Method \code{fullos()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{rkg3$fullos(par)}\if{html}{\out{</div>}}
@@ -158,8 +158,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-rkg3-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-rkg3-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

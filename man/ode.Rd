@@ -83,22 +83,22 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{ode$new()}}
-\item \href{#method-greet}{\code{ode$greet()}}
-\item \href{#method-solve_ode}{\code{ode$solve_ode()}}
-\item \href{#method-rmsfun}{\code{ode$rmsfun()}}
-\item \href{#method-gradient}{\code{ode$gradient()}}
-\item \href{#method-lossNODE}{\code{ode$lossNODE()}}
-\item \href{#method-grlNODE}{\code{ode$grlNODE()}}
-\item \href{#method-loss32NODE}{\code{ode$loss32NODE()}}
-\item \href{#method-grl32NODE}{\code{ode$grl32NODE()}}
-\item \href{#method-optim_par}{\code{ode$optim_par()}}
-\item \href{#method-clone}{\code{ode$clone()}}
+\item \href{#method-ode-new}{\code{ode$new()}}
+\item \href{#method-ode-greet}{\code{ode$greet()}}
+\item \href{#method-ode-solve_ode}{\code{ode$solve_ode()}}
+\item \href{#method-ode-rmsfun}{\code{ode$rmsfun()}}
+\item \href{#method-ode-gradient}{\code{ode$gradient()}}
+\item \href{#method-ode-lossNODE}{\code{ode$lossNODE()}}
+\item \href{#method-ode-grlNODE}{\code{ode$grlNODE()}}
+\item \href{#method-ode-loss32NODE}{\code{ode$loss32NODE()}}
+\item \href{#method-ode-grl32NODE}{\code{ode$grl32NODE()}}
+\item \href{#method-ode-optim_par}{\code{ode$optim_par()}}
+\item \href{#method-ode-clone}{\code{ode$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-ode-new"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-new}{}}}
 \subsection{Method \code{new()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$new(
@@ -113,8 +113,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-greet"></a>}}
-\if{latex}{\out{\hypertarget{method-greet}{}}}
+\if{html}{\out{<a id="method-ode-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-greet}{}}}
 \subsection{Method \code{greet()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$greet()}\if{html}{\out{</div>}}
@@ -122,8 +122,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-solve_ode"></a>}}
-\if{latex}{\out{\hypertarget{method-solve_ode}{}}}
+\if{html}{\out{<a id="method-ode-solve_ode"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-solve_ode}{}}}
 \subsection{Method \code{solve_ode()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$solve_ode(par_ode, xinit, tinterv)}\if{html}{\out{</div>}}
@@ -131,8 +131,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rmsfun"></a>}}
-\if{latex}{\out{\hypertarget{method-rmsfun}{}}}
+\if{html}{\out{<a id="method-ode-rmsfun"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-rmsfun}{}}}
 \subsection{Method \code{rmsfun()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$rmsfun(par_ode, state, M1, true_par)}\if{html}{\out{</div>}}
@@ -140,8 +140,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-gradient"></a>}}
-\if{latex}{\out{\hypertarget{method-gradient}{}}}
+\if{html}{\out{<a id="method-ode-gradient"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-gradient}{}}}
 \subsection{Method \code{gradient()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$gradient(y_p, par_ode)}\if{html}{\out{</div>}}
@@ -149,8 +149,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-lossNODE"></a>}}
-\if{latex}{\out{\hypertarget{method-lossNODE}{}}}
+\if{html}{\out{<a id="method-ode-lossNODE"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-lossNODE}{}}}
 \subsection{Method \code{lossNODE()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$lossNODE(par, y_p, z_p)}\if{html}{\out{</div>}}
@@ -158,8 +158,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-grlNODE"></a>}}
-\if{latex}{\out{\hypertarget{method-grlNODE}{}}}
+\if{html}{\out{<a id="method-ode-grlNODE"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-grlNODE}{}}}
 \subsection{Method \code{grlNODE()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$grlNODE(par, y_p, z_p)}\if{html}{\out{</div>}}
@@ -167,8 +167,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-loss32NODE"></a>}}
-\if{latex}{\out{\hypertarget{method-loss32NODE}{}}}
+\if{html}{\out{<a id="method-ode-loss32NODE"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-loss32NODE}{}}}
 \subsection{Method \code{loss32NODE()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$loss32NODE(par, y_p, z_p)}\if{html}{\out{</div>}}
@@ -176,8 +176,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-grl32NODE"></a>}}
-\if{latex}{\out{\hypertarget{method-grl32NODE}{}}}
+\if{html}{\out{<a id="method-ode-grl32NODE"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-grl32NODE}{}}}
 \subsection{Method \code{grl32NODE()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$grl32NODE(par, y_p, z_p)}\if{html}{\out{</div>}}
@@ -185,8 +185,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-optim_par"></a>}}
-\if{latex}{\out{\hypertarget{method-optim_par}{}}}
+\if{html}{\out{<a id="method-ode-optim_par"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-optim_par}{}}}
 \subsection{Method \code{optim_par()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ode$optim_par(par, y_p, z_p)}\if{html}{\out{</div>}}
@@ -194,8 +194,8 @@ Mu Niu, \email{ mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-ode-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-ode-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

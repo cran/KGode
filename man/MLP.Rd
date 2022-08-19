@@ -23,24 +23,24 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-greet}{\code{MLP$greet()}}
-\item \href{#method-set_k_par}{\code{MLP$set_k_par()}}
-\item \href{#method-kern}{\code{MLP$kern()}}
-\item \href{#method-dkd_kpar}{\code{MLP$dkd_kpar()}}
-\item \href{#method-dkdt}{\code{MLP$dkdt()}}
-\item \href{#method-clone}{\code{MLP$clone()}}
+\item \href{#method-MLP-greet}{\code{MLP$greet()}}
+\item \href{#method-MLP-set_k_par}{\code{MLP$set_k_par()}}
+\item \href{#method-MLP-kern}{\code{MLP$kern()}}
+\item \href{#method-MLP-dkd_kpar}{\code{MLP$dkd_kpar()}}
+\item \href{#method-MLP-dkdt}{\code{MLP$dkdt()}}
+\item \href{#method-MLP-clone}{\code{MLP$clone()}}
 }
 }
-\if{html}{
-\out{<details open ><summary>Inherited methods</summary>}
-\itemize{
-\item \out{<span class="pkg-link" data-pkg="KGode" data-topic="Kernel" data-id="initialize">}\href{../../KGode/html/Kernel.html#method-initialize}{\code{KGode::Kernel$initialize()}}\out{</span>}
-}
-\out{</details>}
-}
+\if{html}{\out{
+<details open><summary>Inherited methods</summary>
+<ul>
+<li><span class="pkg-link" data-pkg="KGode" data-topic="Kernel" data-id="initialize"><a href='../../KGode/html/Kernel.html#method-Kernel-initialize'><code>KGode::Kernel$initialize()</code></a></span></li>
+</ul>
+</details>
+}}
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-greet"></a>}}
-\if{latex}{\out{\hypertarget{method-greet}{}}}
+\if{html}{\out{<a id="method-MLP-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-MLP-greet}{}}}
 \subsection{Method \code{greet()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{MLP$greet()}\if{html}{\out{</div>}}
@@ -48,8 +48,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-set_k_par"></a>}}
-\if{latex}{\out{\hypertarget{method-set_k_par}{}}}
+\if{html}{\out{<a id="method-MLP-set_k_par"></a>}}
+\if{latex}{\out{\hypertarget{method-MLP-set_k_par}{}}}
 \subsection{Method \code{set_k_par()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{MLP$set_k_par(val)}\if{html}{\out{</div>}}
@@ -57,8 +57,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-kern"></a>}}
-\if{latex}{\out{\hypertarget{method-kern}{}}}
+\if{html}{\out{<a id="method-MLP-kern"></a>}}
+\if{latex}{\out{\hypertarget{method-MLP-kern}{}}}
 \subsection{Method \code{kern()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{MLP$kern(t1, t2)}\if{html}{\out{</div>}}
@@ -66,8 +66,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-dkd_kpar"></a>}}
-\if{latex}{\out{\hypertarget{method-dkd_kpar}{}}}
+\if{html}{\out{<a id="method-MLP-dkd_kpar"></a>}}
+\if{latex}{\out{\hypertarget{method-MLP-dkd_kpar}{}}}
 \subsection{Method \code{dkd_kpar()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{MLP$dkd_kpar(t1, t2)}\if{html}{\out{</div>}}
@@ -75,8 +75,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-dkdt"></a>}}
-\if{latex}{\out{\hypertarget{method-dkdt}{}}}
+\if{html}{\out{<a id="method-MLP-dkdt"></a>}}
+\if{latex}{\out{\hypertarget{method-MLP-dkdt}{}}}
 \subsection{Method \code{dkdt()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{MLP$dkdt(t1, t2)}\if{html}{\out{</div>}}
@@ -84,8 +84,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-MLP-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-MLP-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

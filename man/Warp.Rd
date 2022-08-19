@@ -43,19 +43,19 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{Warp$new()}}
-\item \href{#method-greet}{\code{Warp$greet()}}
-\item \href{#method-showker}{\code{Warp$showker()}}
-\item \href{#method-warpLoss}{\code{Warp$warpLoss()}}
-\item \href{#method-warpLossLen}{\code{Warp$warpLossLen()}}
-\item \href{#method-warpSin}{\code{Warp$warpSin()}}
-\item \href{#method-slowWarp}{\code{Warp$slowWarp()}}
-\item \href{#method-clone}{\code{Warp$clone()}}
+\item \href{#method-Warp-new}{\code{Warp$new()}}
+\item \href{#method-Warp-greet}{\code{Warp$greet()}}
+\item \href{#method-Warp-showker}{\code{Warp$showker()}}
+\item \href{#method-Warp-warpLoss}{\code{Warp$warpLoss()}}
+\item \href{#method-Warp-warpLossLen}{\code{Warp$warpLossLen()}}
+\item \href{#method-Warp-warpSin}{\code{Warp$warpSin()}}
+\item \href{#method-Warp-slowWarp}{\code{Warp$slowWarp()}}
+\item \href{#method-Warp-clone}{\code{Warp$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-Warp-new"></a>}}
+\if{latex}{\out{\hypertarget{method-Warp-new}{}}}
 \subsection{Method \code{new()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Warp$new(y = NULL, t = NULL, b = NULL, lambda = NULL, ker = NULL)}\if{html}{\out{</div>}}
@@ -63,8 +63,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-greet"></a>}}
-\if{latex}{\out{\hypertarget{method-greet}{}}}
+\if{html}{\out{<a id="method-Warp-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-Warp-greet}{}}}
 \subsection{Method \code{greet()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Warp$greet()}\if{html}{\out{</div>}}
@@ -72,8 +72,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-showker"></a>}}
-\if{latex}{\out{\hypertarget{method-showker}{}}}
+\if{html}{\out{<a id="method-Warp-showker"></a>}}
+\if{latex}{\out{\hypertarget{method-Warp-showker}{}}}
 \subsection{Method \code{showker()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Warp$showker()}\if{html}{\out{</div>}}
@@ -81,8 +81,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-warpLoss"></a>}}
-\if{latex}{\out{\hypertarget{method-warpLoss}{}}}
+\if{html}{\out{<a id="method-Warp-warpLoss"></a>}}
+\if{latex}{\out{\hypertarget{method-Warp-warpLoss}{}}}
 \subsection{Method \code{warpLoss()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Warp$warpLoss(par, len, p0, eps)}\if{html}{\out{</div>}}
@@ -90,8 +90,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-warpLossLen"></a>}}
-\if{latex}{\out{\hypertarget{method-warpLossLen}{}}}
+\if{html}{\out{<a id="method-Warp-warpLossLen"></a>}}
+\if{latex}{\out{\hypertarget{method-Warp-warpLossLen}{}}}
 \subsection{Method \code{warpLossLen()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Warp$warpLossLen(par, lam, p0, eps)}\if{html}{\out{</div>}}
@@ -99,8 +99,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-warpSin"></a>}}
-\if{latex}{\out{\hypertarget{method-warpSin}{}}}
+\if{html}{\out{<a id="method-Warp-warpSin"></a>}}
+\if{latex}{\out{\hypertarget{method-Warp-warpSin}{}}}
 \subsection{Method \code{warpSin()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Warp$warpSin(len, lop, p0, eps)}\if{html}{\out{</div>}}
@@ -108,8 +108,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-slowWarp"></a>}}
-\if{latex}{\out{\hypertarget{method-slowWarp}{}}}
+\if{html}{\out{<a id="method-Warp-slowWarp"></a>}}
+\if{latex}{\out{\hypertarget{method-Warp-slowWarp}{}}}
 \subsection{Method \code{slowWarp()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Warp$slowWarp(lens, p0, eps)}\if{html}{\out{</div>}}
@@ -117,8 +117,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-Warp-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-Warp-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

@@ -35,17 +35,17 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{Kernel$new()}}
-\item \href{#method-greet}{\code{Kernel$greet()}}
-\item \href{#method-kern}{\code{Kernel$kern()}}
-\item \href{#method-dkd_kpar}{\code{Kernel$dkd_kpar()}}
-\item \href{#method-dkdt}{\code{Kernel$dkdt()}}
-\item \href{#method-clone}{\code{Kernel$clone()}}
+\item \href{#method-Kernel-new}{\code{Kernel$new()}}
+\item \href{#method-Kernel-greet}{\code{Kernel$greet()}}
+\item \href{#method-Kernel-kern}{\code{Kernel$kern()}}
+\item \href{#method-Kernel-dkd_kpar}{\code{Kernel$dkd_kpar()}}
+\item \href{#method-Kernel-dkdt}{\code{Kernel$dkdt()}}
+\item \href{#method-Kernel-clone}{\code{Kernel$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-Kernel-new"></a>}}
+\if{latex}{\out{\hypertarget{method-Kernel-new}{}}}
 \subsection{Method \code{new()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Kernel$new(k_par = NULL)}\if{html}{\out{</div>}}
@@ -53,8 +53,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-greet"></a>}}
-\if{latex}{\out{\hypertarget{method-greet}{}}}
+\if{html}{\out{<a id="method-Kernel-greet"></a>}}
+\if{latex}{\out{\hypertarget{method-Kernel-greet}{}}}
 \subsection{Method \code{greet()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Kernel$greet()}\if{html}{\out{</div>}}
@@ -62,8 +62,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-kern"></a>}}
-\if{latex}{\out{\hypertarget{method-kern}{}}}
+\if{html}{\out{<a id="method-Kernel-kern"></a>}}
+\if{latex}{\out{\hypertarget{method-Kernel-kern}{}}}
 \subsection{Method \code{kern()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Kernel$kern(t1, t2)}\if{html}{\out{</div>}}
@@ -71,8 +71,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-dkd_kpar"></a>}}
-\if{latex}{\out{\hypertarget{method-dkd_kpar}{}}}
+\if{html}{\out{<a id="method-Kernel-dkd_kpar"></a>}}
+\if{latex}{\out{\hypertarget{method-Kernel-dkd_kpar}{}}}
 \subsection{Method \code{dkd_kpar()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Kernel$dkd_kpar(t1, t2)}\if{html}{\out{</div>}}
@@ -80,8 +80,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-dkdt"></a>}}
-\if{latex}{\out{\hypertarget{method-dkdt}{}}}
+\if{html}{\out{<a id="method-Kernel-dkdt"></a>}}
+\if{latex}{\out{\hypertarget{method-Kernel-dkdt}{}}}
 \subsection{Method \code{dkdt()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Kernel$dkdt(t1, t2)}\if{html}{\out{</div>}}
@@ -89,8 +89,8 @@ Mu Niu, \email{mu.niu@glasgow.ac.uk}
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-Kernel-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-Kernel-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{
