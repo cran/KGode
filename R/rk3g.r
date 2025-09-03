@@ -6,8 +6,8 @@
 #' @importFrom R6 R6Class
 #' @export
 #' @keywords data
-#' @return an  \code{\link{R6Class}} object which can be used for improving ode parameters estimation by using ode as a regularizer.
-#' @format \code{\link{R6Class}} object.
+#' @return an  \code{\link[R6]{R6Class}} object which can be used for improving ode parameters estimation by using ode as a regularizer.
+#' @format \code{\link[R6]{R6Class}} object.
 #' @field rk the 'rkhs' class object containing the interpolation information for each state of the ode.
 #' @field ode_m the 'ode' class object containing the information about the odes.
 #' @section Methods:

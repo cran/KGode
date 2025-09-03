@@ -8,8 +8,8 @@
 #' @import pspline
 #' @export
 #' @keywords data
-#' @return an  \code{\link{R6Class}} object which can be used for gradient matching.
-#' @format \code{\link{R6Class}} object.
+#' @return an  \code{\link[R6]{R6Class}} object which can be used for gradient matching.
+#' @format \code{\link[R6]{R6Class}} object.
 #' @field ode_par vector(of length n_p) containing ode parameters. n_p is the number of ode parameters.
 #' @field ode_fun function containing the ode function.
 #' @field t vector(of length n_o) containing time points of observations. n_o is the length of time points.

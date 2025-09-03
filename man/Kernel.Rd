@@ -5,10 +5,10 @@
 \alias{Kernel}
 \title{The 'Kernel' class object}
 \format{
-\code{\link{R6Class}} object.
+\code{\link[R6]{R6Class}} object.
 }
 \value{
-an  \code{\link{R6Class}} object which can be used for the rkhs interpolation.
+an  \code{\link[R6]{R6Class}} object which can be used for the rkhs interpolation.
 }
 \description{
 This a abstract class     provide the kernel function and the 1st order derivative of rbf kernel function.

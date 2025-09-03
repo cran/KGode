@@ -5,10 +5,10 @@
 \alias{ode}
 \title{The 'ode' class object}
 \format{
-\code{\link{R6Class}} object.
+\code{\link[R6]{R6Class}} object.
 }
 \value{
-an  \code{\link{R6Class}} object which can be used for gradient matching.
+an  \code{\link[R6]{R6Class}} object which can be used for gradient matching.
 }
 \description{
 This class provide all information about odes and methods for numerically solving odes.

@@ -5,8 +5,8 @@
 #' @importFrom R6 R6Class
 #' @export
 #' @keywords data
-#' @return an  \code{\link{R6Class}} object which can be used for the rkhs interpolation.
-#' @format \code{\link{R6Class}} object.
+#' @return an  \code{\link[R6]{R6Class}} object which can be used for the rkhs interpolation.
+#' @format \code{\link[R6]{R6Class}} object.
 #' @export
 #' @author Mu Niu, \email{mu.niu@glasgow.ac.uk}
 

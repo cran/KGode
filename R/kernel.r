@@ -4,9 +4,9 @@
 #' @docType class
 #' @importFrom R6 R6Class
 #' @export
-#' @keywords data
-#' @return an  \code{\link{R6Class}} object which can be used for the rkhs interpolation.
-#' @format \code{\link{R6Class}} object.
+#' @keywords data   
+#' @return an  \code{\link[R6]{R6Class}} object which can be used for the rkhs interpolation.
+#' @format \code{\link[R6]{R6Class}} object.
 #' @field k_par vector(of length n_hy) containing the hyper-parameter of kernel. n_hy is the length of kernel hyper parameters.
 #' @section Methods:
 #' \describe{

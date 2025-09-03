@@ -5,10 +5,10 @@
 \alias{MLP}
 \title{The 'MLP' class object}
 \format{
-\code{\link{R6Class}} object.
+\code{\link[R6]{R6Class}} object.
 }
 \value{
-an  \code{\link{R6Class}} object which can be used for the rkhs interpolation.
+an  \code{\link[R6]{R6Class}} object which can be used for the rkhs interpolation.
 }
 \description{
 This a R6 class. It inherits from 'kernel' class. It provides the mlp kernel function and the 1st order derivative of mlp kernel function.

@@ -5,10 +5,10 @@
 \alias{rkg3}
 \title{The 'rkg3' class object}
 \format{
-\code{\link{R6Class}} object.
+\code{\link[R6]{R6Class}} object.
 }
 \value{
-an  \code{\link{R6Class}} object which can be used for improving ode parameters estimation by using ode as a regularizer.
+an  \code{\link[R6]{R6Class}} object which can be used for improving ode parameters estimation by using ode as a regularizer.
 }
 \description{
 This class provides advanced gradient matching method by using the ode as a regularizer.

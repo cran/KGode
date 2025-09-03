@@ -8,8 +8,8 @@
 #' @import pspline
 #' @export
 #' @keywords data
-#' @return an  \code{\link{R6Class}} object which can be used for doing interpolation using reproducing kernel Hilbert space.
-#' @format \code{\link{R6Class}} object.
+#' @return an  \code{\link[R6]{R6Class}} object which can be used for doing interpolation using reproducing kernel Hilbert space.
+#' @format \code{\link[R6]{R6Class}} object.
 #' @field y matrix(of size n_s*n_o) containing observation.
 #' @field t vector(of length n_o) containing time points for observation.
 #' @field b vector(of length n_o) containing coefficients of kernel or basis functions.

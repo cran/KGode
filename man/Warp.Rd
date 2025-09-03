@@ -5,10 +5,10 @@
 \alias{Warp}
 \title{The 'Warp' class object}
 \format{
-\code{\link{R6Class}} object.
+\code{\link[R6]{R6Class}} object.
 }
 \value{
-an  \code{\link{R6Class}} object which can be used for doing interpolation using reproducing kernel Hilbert space.
+an  \code{\link[R6]{R6Class}} object which can be used for doing interpolation using reproducing kernel Hilbert space.
 }
 \description{
 This class provide the warping method which can be used to warp the original signal to sinusoidal like signal.
